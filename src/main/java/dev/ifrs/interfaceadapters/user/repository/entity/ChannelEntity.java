@@ -34,6 +34,7 @@ public class ChannelEntity {
     private List<UserEntity> users;
 
     public ChannelEntity() {
+        this.messages = new ArrayList<>();
         this.users = new ArrayList<>();
     }
 
